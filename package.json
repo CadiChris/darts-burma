@@ -6,7 +6,8 @@
   "author": "Christophe Cadilhac <christophe.cadilhac@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "./node_modules/.bin/jest --watch",
+    "test": "./node_modules/.bin/jest",
+    "test:watch": "./node_modules/.bin/jest --watch",
     "prettier": "./node_modules/.bin/prettier --write \"src/**/*.js\"",
     "precommit": "lint-staged"
   },
